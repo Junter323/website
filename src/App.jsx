@@ -30,66 +30,68 @@ const tickerItems = [
 const attendedEvents = [
   {
     title: "APGS 亞太遊戲高峰會",
-    years: [{ year: "2025", href: "https://example.com" }],
+    years: [
+	  { year: "2023", href: "https://tgs.tca.org.tw/apgs" }  
+	  { year: "2024", href: "https://tgs.tca.org.tw/apgs" }
+	  { year: "2025", href: "https://tgs.tca.org.tw/apgs" }
+	],
   },
   {
     title: "AWS Summit Taipei",
-    years: [{ year: "2024", href: "https://example.com" }],
-  },
-  {
-    title: "AWS 雲端科技發表會 re:Cap",
     years: [
-      { year: "2022", href: "https://example.com" },
-      { year: "2023", href: "https://example.com" },
-      { year: "2024", href: "https://example.com" },
-    ],
+	  { year: "2024", href: "https://aws.amazon.com/tw/events/taiwan/2024-aws-summit-taipei" }
+	  { year: "2025", href: "https://aws.amazon.com/tw/events/summits/taipei" }
+	],
   },
   {
     title: "COMPUTEX",
     years: [
-      { year: "2024", href: "https://example.com" },
-      { year: "2025", href: "https://example.com" },
-      { year: "2026", href: "https://example.com" },
+      { year: "2024", href: "https://www.computextaipei.com.tw/zh-tw/index.html" },
+      { year: "2025", href: "https://www.computextaipei.com.tw/zh-tw/index.html" },
+      { year: "2026", href: "https://www.computextaipei.com.tw/zh-tw/index.html" },
     ],
   },
   {
     title: "COSCUP 開源人年會",
     years: [
-      { year: "2021", href: "https://example.com" },
-      { year: "2025", href: "https://example.com" },
-      { year: "2026", href: "https://example.com" },
+	  { year: "2021", href: "https://coscup.org/2021" },
+	  { year: "2022", href: "https://coscup.org/2022" },
+	  { year: "2023", href: "https://coscup.org/2023" },
+      { year: "2024", href: "https://coscup.org/2024" },
+      { year: "2025", href: "https://coscup.org/2025" },
+      { year: "2026", href: "https://coscup.org/2026" },
     ],
   },
   {
     title: "CYBERSEC 臺灣資安大會",
     years: [
-      { year: "2022", href: "https://example.com" },
-      { year: "2023", href: "https://example.com" },
-      { year: "2024", href: "https://example.com" },
-      { year: "2025", href: "https://example.com" },
-      { year: "2026", href: "https://example.com" },
+      { year: "2022", href: "https://cybersec.ithome.com.tw" },
+      { year: "2023", href: "https://cybersec.ithome.com.tw" },
+      { year: "2024", href: "https://cybersec.ithome.com.tw" },
+      { year: "2025", href: "https://cybersec.ithome.com.tw" },
+      { year: "2026", href: "https://cybersec.ithome.com.tw" },
     ],
   },
   {
     title: "DevFest Taipei",
-    years: [{ year: "2025", href: "https://example.com" }],
+    years: [{ year: "2025", href: "https://devfest-taipei.gdg.tw/2025" }],
   },
   {
-    title: "DevJam",
-    years: [{ year: "2026", href: "https://example.com" }],
+    title: "台北國際動漫節",
+    years: [{ year: "2026", href: "https://www.ccpa.org.tw/tica/index.php?tpl=11" }],
   },
   {
     title: "g0v Summit 台灣零時政府雙年會",
     years: [
-      { year: "2024", href: "https://example.com" },
-      { year: "2026", href: "https://example.com" },
+      { year: "2024", href: "https://summit.g0v.tw/2024" },
+      { year: "2026", href: "https://summit.g0v.tw/2026" },
     ],
   },
   {
     title: "Google Cloud Summit Taipei",
     years: [
-      { year: "2023", href: "https://example.com" },
-      { year: "2024", href: "https://example.com" },
+      { year: "2023", href: "https://cloudonair.withgoogle.com/events/summit-taipei-2023" },
+      { year: "2025", href: "https://cloudonair.withgoogle.com/events/summit-taipei-2025" },
     ],
   },
   {
@@ -99,6 +101,9 @@ const attendedEvents = [
   {
     title: "HITCON CMT 台灣駭客年會",
     years: [
+	  { year: "2021", href: "https://example.com" },
+	  { year: "2022", href: "https://example.com" },
+	  { year: "2023", href: "https://example.com" },
       { year: "2024", href: "https://example.com" },
       { year: "2025", href: "https://example.com" },
       { year: "2026", href: "https://example.com" },
@@ -114,31 +119,35 @@ const attendedEvents = [
   {
     title: "SITCON 學生計算機年會",
     years: [
-      { year: "2021", href: "https://example.com" },
-      { year: "2022", href: "https://example.com" },
-      { year: "2024", href: "https://example.com" },
-      { year: "2025", href: "https://example.com" },
-      { year: "2026", href: "https://example.com" },
+	  { year: "2020", href: "https://sitcon.org/2020" },
+      { year: "2021", href: "https://sitcon.org/2021" },
+      { year: "2022", href: "https://sitcon.org/2022" },
+      { year: "2024", href: "https://sitcon.org/2024" },
+      { year: "2025", href: "https://sitcon.org/2025" },
+      { year: "2026", href: "https://sitcon.org/2026" },
     ],
   },
   {
     title: "SITCON 學生計算機年會夏令營",
     years: [
       { year: "2021", href: "https://example.com" },
-      { year: "2024", href: "https://example.com" },
-      { year: "2025", href: "https://example.com" },
-      { year: "2026", href: "https://example.com" },
     ],
   },
   {
     title: "台北國際電玩展",
     years: [
-      { year: "2021", href: "https://example.com" },
-      { year: "2022", href: "https://example.com" },
-      { year: "2023", href: "https://example.com" },
-      { year: "2024", href: "https://example.com" },
-      { year: "2025", href: "https://example.com" },
-      { year: "2026", href: "https://example.com" },
+	  { year: "2015", href: "https://tgs.tca.org.tw/index_c.php" },
+	  { year: "2016", href: "https://tgs.tca.org.tw/index_c.php" },
+	  { year: "2017", href: "https://tgs.tca.org.tw/index_c.php" },
+	  { year: "2018", href: "https://tgs.tca.org.tw/index_c.php" },
+	  { year: "2019", href: "https://tgs.tca.org.tw/index_c.php" },
+	  { year: "2020", href: "https://tgs.tca.org.tw/index_c.php" },
+      { year: "2021", href: "https://tgs.tca.org.tw/index_c.php" },
+      { year: "2022", href: "https://tgs.tca.org.tw/index_c.php" },
+      { year: "2023", href: "https://tgs.tca.org.tw/index_c.php" },
+      { year: "2024", href: "https://tgs.tca.org.tw/index_c.php" },
+      { year: "2025", href: "https://tgs.tca.org.tw/index_c.php" },
+      { year: "2026", href: "https://tgs.tca.org.tw/index_c.php" },
     ],
   },
 ];
