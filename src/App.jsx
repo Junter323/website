@@ -16,7 +16,7 @@ const profile = {
   name: "御痕",
   role: "社會線記者、製播人、會吸貓咪的人。",
   slogan: "有些人寫程式改世界，我負責把世界正在改變的事寫下來。",
-  photo: "/profile.jpg",
+  photo: "/profile.webp",
 };
 
 const tickerItems = [
