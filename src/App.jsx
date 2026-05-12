@@ -493,8 +493,8 @@ function TypeLine({ text }) {
 
 function ProfilePage() {
   const contacts = [
-    { label: "個人 Email", value: "Junter0323@gmail.com", href: "mailto:Junter0323@gmail.com", icon: Mail },
-    { label: "公司 Email", value: "Junter1523@new-reporter.com", href: "mailto:Junter1523@new-reporter.com", icon: Mail },
+    { label: "個人 Email", value: "Junter0323[at]gmail.com", href: "mailto:Junter0323@gmail.com", icon: Mail },
+    { label: "公司 Email", value: "Junter1523[at]new-reporter.com", href: "mailto:Junter1523@new-reporter.com", icon: Mail },
     { label: "Facebook", value: "王俊勝", href: "https://www.facebook.com/iwjs323", icon: Facebook },
     { label: "Instagram", value: "CHUN SHEN／俊勝", href: "https://www.instagram.com/wjs.0323", icon: Instagram },
     { label: "Discord", value: "junter1523", href: "https://discord.gg/59jnRR9q", icon: MessageCircle },
