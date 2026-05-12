@@ -31,16 +31,16 @@ const attendedEvents = [
   {
     title: "APGS 亞太遊戲高峰會",
     years: [
-	  { year: "2023", href: "https://tgs.tca.org.tw/apgs" }  
-	  { year: "2024", href: "https://tgs.tca.org.tw/apgs" }
-	  { year: "2025", href: "https://tgs.tca.org.tw/apgs" }
+	  { year: "2023", href: "https://tgs.tca.org.tw/apgs" },  
+	  { year: "2024", href: "https://tgs.tca.org.tw/apgs" },
+	  { year: "2025", href: "https://tgs.tca.org.tw/apgs" },
 	],
   },
   {
     title: "AWS Summit Taipei",
     years: [
-	  { year: "2024", href: "https://aws.amazon.com/tw/events/taiwan/2024-aws-summit-taipei" }
-	  { year: "2025", href: "https://aws.amazon.com/tw/events/summits/taipei" }
+	  { year: "2024", href: "https://aws.amazon.com/tw/events/taiwan/2024-aws-summit-taipei" },
+	  { year: "2025", href: "https://aws.amazon.com/tw/events/summits/taipei" },
 	],
   },
   {
@@ -96,7 +96,9 @@ const attendedEvents = [
   },
   {
     title: "Google Search Central Live Taipei",
-    years: [{ year: "2024", href: "https://example.com" }],
+    years: [
+	  { year: "2024", href: "https://example.com" },
+	],
   },
   {
     title: "HITCON CMT 台灣駭客年會",
@@ -145,6 +147,8 @@ const attendedEvents = [
       { year: "2021", href: "https://tgs.tca.org.tw/index_c.php" },
       { year: "2022", href: "https://tgs.tca.org.tw/index_c.php" },
       { year: "2023", href: "https://tgs.tca.org.tw/index_c.php" },
+	  { year: "2024", href: "https://tgs.tca.org.tw/index_c.php" },
+	  { year: "2025", href: "https://tgs.tca.org.tw/index_c.php" },
       { year: "2026", href: "https://tgs.tca.org.tw/index_c.php" },
     ],
   },
