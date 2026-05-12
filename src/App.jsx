@@ -145,8 +145,6 @@ const attendedEvents = [
       { year: "2021", href: "https://tgs.tca.org.tw/index_c.php" },
       { year: "2022", href: "https://tgs.tca.org.tw/index_c.php" },
       { year: "2023", href: "https://tgs.tca.org.tw/index_c.php" },
-      { year: "2024", href: "https://tgs.tca.org.tw/index_c.php" },
-      { year: "2025", href: "https://tgs.tca.org.tw/index_c.php" },
       { year: "2026", href: "https://tgs.tca.org.tw/index_c.php" },
     ],
   },
