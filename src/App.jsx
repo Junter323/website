@@ -495,12 +495,12 @@ function ProfilePage() {
   const contacts = [
     { label: "個人 Email", value: "Junter0323@gmail.com", href: "mailto:Junter0323@gmail.com", icon: Mail },
     { label: "公司 Email", value: "Junter1523@new-reporter.com", href: "mailto:Junter1523@new-reporter.com", icon: Mail },
-    { label: "Facebook", value: "王俊勝", href: "https://www.facebook.com/iwjs323/", icon: Facebook },
-    { label: "Instagram", value: "CHUN SHEN／俊勝", href: "https://instagram.com/your-id", icon: Instagram },
-    { label: "Discord", value: "junter1523", href: "https://threads.net/@your-id", icon: MessageCircle },
-    { label: "Telegram", value: "Telegram", href: "https://threads.net/@your-id", icon: MessageCircle },
-    { label: "GitHub", value: "GitHub", href: "https://github.com/your-id", icon: Github },
-    { label: "LinkedIn", value: "LinkedIn", href: "https://linkedin.com/in/your-id", icon: Linkedin },
+    { label: "Facebook", value: "王俊勝", href: "https://www.facebook.com/iwjs323", icon: Facebook },
+    { label: "Instagram", value: "CHUN SHEN／俊勝", href: "https://www.instagram.com/wjs.0323", icon: Instagram },
+    { label: "Discord", value: "junter1523", href: "https://discord.gg/59jnRR9q", icon: MessageCircle },
+    { label: "Telegram", value: "Telegram", href: "https://t.me/Junter0323", icon: MessageCircle },
+    { label: "GitHub", value: "GitHub", href: "https://github.com/Junter323", icon: Github },
+    { label: "LinkedIn", value: "LinkedIn", href: "https://www.linkedin.com/in/jasonwang0323", icon: Linkedin },
   ];
 
   const nowItems = [
@@ -510,10 +510,10 @@ function ProfilePage() {
   ];
 
   const experienceItems = [
-    "壹蘋新聞網 編輯 2024／07–2024／09",
-    "網路新聞內勤編輯人員",
     "多間新聞報社 SEO 優化講師　⎯⎯　至今",
     "賴傳媒（記者爆料網）特派記者、維運工程師　⎯⎯　至今",
+    "壹蘋新聞網 編輯 2024／07–2024／09",
+    "網路新聞報社內勤編輯人員",
   ];
 
   return (
